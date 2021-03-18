@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 3",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [passengerCount]\n,[AvgTripDistance]\n,[SumTripDistance]\n FROM [nycaggregates].[dbo].[passengercountaggregates]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"poolName": "Built-in",
+				"databaseName": "nycaggregates"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
